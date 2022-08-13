@@ -1,0 +1,72 @@
+/* Code from frontend mentor */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* my custom code */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+
+.container .profile-img{
+    border-radius: 50%;
+    border: solid;
+    align-items: center;
+    margin-top: -55px;
+}
+
+.top-element {
+    background-image: url(/images/bg-pattern-card.svg);
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.age {
+    padding-left: 5px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-top: solid;
+    border-color: red;
+}
+
+.element {
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+}
