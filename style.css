@@ -129,7 +129,7 @@ body {
 
 @media screen and (max-width: 414px) {
     body {
-        background-position:-700px -500px, 150px 450px;
+        background-position:-750px -500px, 150px 450px;
         background-repeat: no-repeat, no-repeat;
     }
 }
