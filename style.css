@@ -101,7 +101,7 @@ body {
     width: 350px;
     border-top: solid;
     border-width: 0.01cm;
-    border-top-color: var(--xxx-color);
+    border-top-color: hsl(0, 0%, 59%, .3);
 }
 
 .age, .country{
@@ -125,4 +125,11 @@ body {
 .label {
     color: var(--xxx-color);
     font-size: 12px;
+}
+
+@media screen and (max-width: 414px) {
+    body {
+        background-position:-700px -500px, 150px 450px;
+        background-repeat: no-repeat, no-repeat;
+    }
 }
